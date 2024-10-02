@@ -3,7 +3,7 @@ USER root
 
 COPY requirements.txt .
 
-RUN apt install ghostscript
+# RUN apt install ghostscript
 
 RUN apt-get update && apt-get install -y \
   libpq-dev \
